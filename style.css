@@ -2,7 +2,7 @@ h1{
 font-family: 'Noto Sans', sans-serif;
 font: bold;
 text-align: center;
-padding: 20px;
+margin-top: 60px;
 color: white;
 }
 
@@ -12,8 +12,11 @@ text-align: center;
 padding: 50px 0px 20px 0px;
 }
 
-h4{
+
+h5{
 text-align: center;
+font-style: italic;
+height: 200px;
 }
 
 .badge-description{
@@ -52,6 +55,42 @@ float: right;
 padding: 10px;
 }
 
+.jumbotron{
+background-image:url("../final-project-salary-coach-confirmation-page/images/hero2.jpg");
+color: white;
+padding: 30px 300px;
+height: 450px;
+}
+
+.hero-copy{
+text-align: center;
+margin-top: 50px;
+}
+
+.confirmation-copy{
+text-align: center;
+height: 100px;
+padding: 20px;
+}
+
+.heroCTAflex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 50px;
+}
+
+.heroCTA-get-started{
+align: center;
+padding: 0px 20px;
+}
+
+.heroCTA-learn-more{
+align: center;
+padding: 0px 20px; 
+}
+
+
 .coach-selections{
 display: flex;
 flex-direction: row;
@@ -76,6 +115,8 @@ display: flex;
 align-content: flex-end;
 justify-content: center;
 }
+
+
 
 .btn{
 background-color: #CC006E;
